@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/firstplatinum</path>
+    <page_callback>CRM_Initsegment_Page_Firstplatinum</page_callback>
+    <title>Firstplatinum</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/recurgold</path>
+    <page_callback>CRM_Initsegment_Page_Recurgold</page_callback>
+    <title>Recurgold</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/addsilver</path>
+    <page_callback>CRM_Initsegment_Page_Addsilver</page_callback>
+    <title>Addsilver</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/addbronze</path>
+    <page_callback>CRM_Initsegment_Page_Addbronze</page_callback>
+    <title>Addbronze</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/adddepart</path>
+    <page_callback>CRM_Initsegment_Page_Adddepart</page_callback>
+    <title>Adddepart</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>

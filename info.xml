@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<extension key="no.maf.initsegment" type="module">
+  <file>initsegment</file>
+  <name>Initial Segmentation</name>
+  <description>Specific extension for MAF Norway to initially segment donors into groups</description>
+  <license>Academic Free License</license>
+  <maintainer>
+    <author>CiviCooP</author>
+    <email>helpdesk@civicoop.org</email>
+  </maintainer>
+  <releaseDate>2014-01-08</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.2</ver>
+  </compatibility>
+  <comments>One-time extension for initial segmenting</comments>
+  <civix>
+    <namespace>CRM/Initsegment</namespace>
+  </civix>
+</extension>
