@@ -31,7 +31,7 @@ function initsegment_civicrm_navigationMenu( &$params ) {
                     'name'       => 'First donation into platinum',
                     'url'        => 'civicrm/firstplatinum',
                     'operator'   => null,
-                    'separator'  => 1,
+                    'separator'  => 0,
                     'parentID'   => $maxKey+1,
                     'navID'      => 0,
                     'active'     => 1
@@ -52,9 +52,9 @@ function initsegment_civicrm_navigationMenu( &$params ) {
             ),
             '3' => array(
                 'attributes'    => array (
-                    'label'     => 'Add donors to silver',
-                    'name'      => 'Add donors to silver',
-                    'url'       =>  'civicrm/addsilver',
+                    'label'     => 'Add donors to departure hall',
+                    'name'      => 'Add donors to departure hall',
+                    'url'       =>  'civicrm/adddepart',
                     'operator'  => null,
                     'separator' => 0,
                     'parentID'  => $maxKey+1,
@@ -64,13 +64,25 @@ function initsegment_civicrm_navigationMenu( &$params ) {
             ),
             '4' => array(
                 'attributes'    => array (
+                    'label'     => 'Add donors to silver',
+                    'name'      => 'Add donors to silver',
+                    'url'       =>  'civicrm/addsilver',
+                    'operator'  => null,
+                    'separator' => 0,
+                    'parentID'  => $maxKey+1,
+                    'navID'     => 4,
+                    'active'    => 1
+                )
+            ),
+            '5' => array(
+                'attributes'    => array (
                     'label'     => 'Add donors to bronze',
                     'name'      => 'Add donors to bronze',
                     'url'       =>  'civicrm/addbronze',
                     'operator'  => null,
                     'separator' => 0,
                     'parentID'  => $maxKey+1,
-                    'navID'     => 4,
+                    'navID'     => 5,
                     'active'    => 1
                 )
             )

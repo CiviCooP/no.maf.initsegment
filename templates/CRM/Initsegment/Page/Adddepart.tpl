@@ -1,4 +1,4 @@
-<h3>Donors with active donation and created since 1/-11-2013</h3>
+<h3>Donors with active donation and created since 1-11-2013</h3>
 
 <p>{$endText}</p>
 <h3>Contacts added: </h3>

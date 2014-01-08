@@ -1,6 +1,7 @@
 <?php
 
 require_once 'CRM/Core/Page.php';
+set_time_limit(0);
 
 class CRM_Initsegment_Page_Addsilver extends CRM_Core_Page {
     public $donor_group_id;
