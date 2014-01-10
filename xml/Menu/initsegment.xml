@@ -30,4 +30,10 @@
     <title>Adddepart</title>
     <access_arguments>access CiviCRM</access_arguments>
   </item>
+  <item>
+    <path>civicrm/tagfin</path>
+    <page_callback>CRM_Initsegment_Page_Tagfin</page_callback>
+    <title>Tagfin</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
 </menu>

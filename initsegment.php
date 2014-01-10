@@ -85,6 +85,18 @@ function initsegment_civicrm_navigationMenu( &$params ) {
                     'navID'     => 5,
                     'active'    => 1
                 )
+            ),
+            '6' => array(
+                'attributes'    => array (
+                    'label'     => 'Tag financial types',
+                    'name'      => 'Tag financial types',
+                    'url'       =>  'civicrm/tagfin',
+                    'operator'  => null,
+                    'separator' => 0,
+                    'parentID'  => $maxKey+1,
+                    'navID'     => 6,
+                    'active'    => 1
+                )
             )
         ) 
     );
